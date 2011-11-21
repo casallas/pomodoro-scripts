@@ -1,1 +1,3 @@
-tell application "iTunes"	playend tell
+tell application "iTunes"
+	play
+end tell

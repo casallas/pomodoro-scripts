@@ -1,1 +1,3 @@
-tell application "iTunes"	pauseend tell
+tell application "iTunes"
+	pause
+end tell
