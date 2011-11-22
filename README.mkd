@@ -12,9 +12,9 @@ to work on version 0.31.
 
 ### On Start
 
--Play a random song from your "Classical Music" playlist on iTunes
--Change Skype status to "Do not Disturb"
--Change Skype mood to: "Pomodoroing", available in < 25'
+- Play a random song from your "Classical Music" playlist on iTunes
+- Change Skype status to "Do not Disturb"
+- Change Skype mood to: "Pomodoroing", available in < 25'
 
 ### On Interrupt
 
