@@ -1,0 +1,74 @@
+#pomodoro-scripts
+
+Juan Sebastian Casallas <juan.s.casallas@gmail.com>
+
+## About
+
+These are the AppleScripts I use on my daily-base use of Ugo Landini's 
+[Pomodoro](http://pomodoro.ugolandini.com). The scripts are intended 
+to work on version 0.31.
+
+## What the scripts do:
+
+### On Start
+
+-Play a random song from your "Classical Music" playlist on iTunes
+-Change Skype status to "Do not Disturb"
+-Change Skype mood to: "Pomodoroing", available in < 25'
+
+### On Interrupt
+
+- Pause iTunes (which should be playing Classical Music)
+
+### On Resume
+
+- Play iTunes (play that Classical Music again)
+
+### On Interrupt over, On Reset and On End
+
+- Play a random song from your iTunes library
+- Set Skype status to "Online"
+- Set a blank Skype mood
+
+### On Break End
+
+- Pause iTunes (which should be playing a random song in your library)
+
+## How to use
+
+Click on the pomodoro icon, then click on preferences. On the Script 
+tab you should at least be able to drag the code of each one of the 
+files directly into each of the subsections (the file chooser won't 
+work for some reason and neither will pasting). Make sure you activate 
+the scripts by checking each of the boxes on the left-side of the pane.
+
+If you want to change the iTunes playlists you want to use, just change 
+the `tell application "iTunes"` portion of Start.scpt, Interrupt _ over.scpt, 
+Reset.scpt and End.scpt to play another playlist. I just chose "Music" 
+and "Classical Music" since they should be available on every iTunes 
+(haven't checked other languages though).
+
+## Other usage
+
+Although I use them on Pomodoro, these scripts could be used in other 
+contexts where AppleScript is available, there are no Pomodoro-specifics 
+on them. If you find them useful in anything else than Pomodoro I encourage 
+you to use them or modify them in any way you want to fit your purposes.
+
+## Caveats
+
+This will certainly open iTunes on each of the pomodoro events described 
+above and Skype on all except Interrupt, Resume and Break End.
+
+Your previous Skype status isn't taken in account, which may be problematic 
+if you were "Invisible" before starting a Pomodoro.
+
+## Disclaimer/Licensing
+
+I am by no means associated with Ugo Landini or Pomodoro. As explained 
+on "Other Usage", they could actually be used in applications different 
+from Pomodoro.
+
+I find software licenses obnoxious, but I understand I have to choose one, so
+these scripts and this README (the "Software") are released under the 
+[MIT license](http://www.opensource.org/licenses/mit-license.php), see LICENSE.txt.
